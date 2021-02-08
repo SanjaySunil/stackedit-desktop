@@ -1,0 +1,58 @@
+{
+  "name": "stackedit-desktop",
+  "productName": "StackEdit Desktop",
+  "version": "1.0.0",
+  "description": "Unofficial desktop app for StackEdit.",
+  "license": "MIT",
+  "repository": "sanjaysunil/StackEdit-Desktop",
+  "author": {
+    "name": "Sanjay Sunil",
+    "email": "sanjaysunil@protonmail.com",
+    "url": "https://sanjaysunil.me"
+  },
+  "scripts": {
+    "postinstall": "electron-builder install-app-deps",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --macos --linux --windows",
+    "win": "electron-builder --windows"
+  },
+  "dependencies": {
+    "electron-reloader": "^1.2.0"
+  },
+  "devDependencies": {
+    "electron": ">=9.4.0",
+    "electron-builder": "^21.2.0",
+    "eslint": "^7.19.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "build": {
+    "appId": "com.company.AppName",
+    "mac": {
+      "category": "public.app-category.developer-tools",
+      "darkModeSupport": true
+    },
+    "dmg": {
+      "iconSize": 160,
+      "contents": [
+        {
+          "x": 180,
+          "y": 170
+        },
+        {
+          "x": 480,
+          "y": 170,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Development"
+    }
+  }
+}
