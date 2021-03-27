@@ -17,7 +17,7 @@ const createMainWindow = async () => {
     show: false,
     width: 600,
     height: 400,
-    icon: __dirname + './build/icon.png',
+    icon: __dirname + './build/favicon.ico',
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true, // Protect against prototype pollution.
