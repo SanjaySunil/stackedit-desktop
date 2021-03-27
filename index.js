@@ -17,7 +17,6 @@ const createMainWindow = async () => {
     show: false,
     width: 600,
     height: 400,
-    // opacity: 0.7,  Add Opacity to app.
     icon: __dirname + './build/icon.png',
     webPreferences: {
       nodeIntegration: false,
@@ -27,6 +26,7 @@ const createMainWindow = async () => {
     },
   });
   win.on('ready-to-show', () => {
+    win.maximize();
     win.show();
   });
   win.on('closed', () => {
