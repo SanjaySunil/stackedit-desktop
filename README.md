@@ -33,7 +33,7 @@
 
 ## What's StackEdit desktop?
 
-<a href="" target="_blank">StackEdit desktop</a> is an unofficial electron desktop app for<a href="https://stackedit.io/"> StackEdit</a>. This app loads the StackEdit web editor into a browser window using the Electron framework. You can find the official source code of the editor [here](https://github.com/benweet/stackedit).
+**StackEdit desktop** is an unofficial electron desktop app for<a href="https://stackedit.io/"> StackEdit</a>. This app loads the StackEdit web editor into a browser window using the Electron framework. You can find the official source code of the editor [here](https://github.com/benweet/stackedit).
 <br/>
 
 <!-- Installation -->
