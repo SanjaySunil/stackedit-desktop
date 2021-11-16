@@ -21,7 +21,7 @@
     "electron-reloader": "^1.2.1"
   },
   "devDependencies": {
-    "electron": ">=15.3.1",
+    "electron": ">=16.0.0",
     "electron-builder": "^22.11.7",
     "eslint": "^8.2.0",
     "eslint-config-google": "^0.14.0"
