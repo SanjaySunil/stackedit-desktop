@@ -12,22 +12,13 @@
 </h1>
 <br/><br/>
 
-<!-- Preview -->
-<p align="center">
-  <a href="">
-    <img src="../assets/preview.png" width="100%"/>
-  </a>
-  <!-- Drop Shadow -->
-  <a href="">
-    <img src="./images/dropShadow.png" width="100%"/>
-  </a>
-</p>
-<br/>
-
 <!-- Description -->
 ## What's stackedit-desktop?
 
 [stackedit-desktop]() is an unofficial electron desktop app for StackEdit. This app loads the StackEdit web editor into a browser window using the Electron framework.
+<br />
+
+
 
 <!-- Install -->
 ## Install
@@ -62,6 +53,7 @@ $ npm run dist
 ```
 
 4. Run StackEdit Desktop from `dist` folder!
+
 
 <!-- License -->
 ## License
