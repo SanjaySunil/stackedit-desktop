@@ -2,7 +2,7 @@
   "name": "stackedit-desktop",
   "productName": "StackEdit Desktop",
   "version": "1.0.0",
-  "description": "Unofficial desktop app for StackEdit.",
+  "description": "Unofficial desktop app for StackEdit",
   "license": "MIT",
   "repository": "sanjaysunil/StackEdit-Desktop",
   "author": {

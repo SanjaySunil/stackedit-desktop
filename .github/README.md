@@ -2,7 +2,7 @@
 <br/><br/>
 <h1 align="center">stackedit-desktop</h1>
   <p align="center">
-    Unofficial desktop app for StackEdit.
+    Unofficial desktop app for StackEdit
     <br />
     <br />
     <a href="https://github.com/SanjaySunil/stackedit-desktop/issues/new?assignees=&labels=Bug&template=bug_report.md&title=%5BBUG%5D">Report Bug</a>
