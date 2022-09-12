@@ -16,7 +16,8 @@
     "pack": "electron-builder --dir",
     "dist": "electron-builder --macos --linux --windows",
     "mac:build": "electron-builder --macos",
-    "win:build": "electron-builder --windows"
+    "win:build": "electron-builder --windows",
+    "tux:build": "electron-builder --linux"
   },
   "dependencies": {
     "electron-reloader": "^1.2.1"
