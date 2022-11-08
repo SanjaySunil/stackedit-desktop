@@ -25,7 +25,7 @@
   "devDependencies": {
     "electron": ">=21.1.0",
     "electron-builder": "^23.6.0",
-    "eslint": "^8.4.1",
+    "eslint": "^8.27.0",
     "eslint-config-google": "^0.14.0",
     "readme-components": "^1.2.0"
   },
