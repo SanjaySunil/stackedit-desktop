@@ -20,7 +20,7 @@
     "tux:build": "electron-builder --linux"
   },
   "dependencies": {
-    "electron-reloader": "^1.2.1"
+    "electron-reloader": "^1.2.3"
   },
   "devDependencies": {
     "electron": ">=22.0.3",
